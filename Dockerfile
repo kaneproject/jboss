@@ -1,5 +1,5 @@
 FROM frolvlad/alpine-oraclejdk8
-ENV WILDFLY_VERSION 9.0.0.Final
+ENV WILDFLY_VERSION 10.1.0.CR1
 ENV JBOSS_HOME /opt/jboss/wildfly
 RUN apk add --update curl && \
     rm -rf /var/cache/apk/*
